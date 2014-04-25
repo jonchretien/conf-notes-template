@@ -2,7 +2,6 @@
 
 // required modules
 var fs = require('fs'),
-    request = require('request'),
     mustache = require('mustache');
 
 // declare variables
