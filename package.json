@@ -9,7 +9,6 @@
   "author": "Jon Chretien",
   "license": "ISC",
   "devDependencies": {
-    "request": "~2.34.0",
     "mustache": "~0.8.1"
   }
 }
