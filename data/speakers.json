@@ -1,0 +1,346 @@
+{
+    "thursday": [
+        {
+            "image_src": "",
+            "time": "8:00",
+            "name": [
+                ""
+            ],
+            "title": "Registration + Breakfast",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "",
+            "time": "9:00",
+            "name": [
+                "It's great to see you!"
+            ],
+            "title": "Opening Remarks",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/mike-program.jpg",
+            "time": "9:15",
+            "name": [
+                "Mike Bostock"
+            ],
+            "title": "Keynote",
+            "abstract": "",
+            "bio": "<p><a href='http://bost.ocks.org/mike/' target='_blank'>Mike Bostock</a> is a graphics editor for <a href='http://www.nytimes.com/' target='_blank'>The New York Times</a>. He is also the author of <a href='http://d3js.org/' target='_blank'>D3.js</a>, a popular open-source library for visualizing data using web standards. Prior to The Times, Mike was a visualization scientist for Square and a PhD student in the Stanford Visualization Group.</p>",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/eric-program.jpg",
+            "time": "10:00",
+            "name": [
+                "Eric Fischer"
+            ],
+            "title": "Mapping Billions of Dots",
+            "abstract": "<p>Maps made of millions or billions of dots can be beautiful and informative, but can overwhelm tools that are not designed to handle such a large volume of data. In this session I describe what I have learned about structuring data for efficient processing and display on the web and about rendering it with visual clarity across a wide range of scales and densities, with examples from <a href='https://www.mapbox.com/'>Mapbox</a> projects.</p>",
+            "bio": "<p><a href='http://twitter.com/enf'>Eric Fischer</a> is a data artist and software developer at Mapbox. He was previously an artist in residence at the Exploratorium in San Francisco and before that was on the Android team at Google. His work has been <a href=\"http://www.moma.org/interactives/exhibitions/2011/talktome/objects/146200/\">shown</a> at the Museum of Modern Art and has appeared in many web and print publications including Wired, Popular Science, and Best American Infographics. He is particularly interested in using geographic data to understand and improve the pedestrian and transit experience in cities.</p>",
+            "tags": [
+                "Mapping",
+                "Workflow"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/sam-program.jpg",
+            "time": "10:45",
+            "name": [
+                "Sam Selikoff"
+            ],
+            "title": "Using D3 with Backbone, Angular and Ember",
+            "abstract": "<p>In this talk, Sam Selikoff will discuss the use of D3 within JavaScript applications built with MVC frameworks, while embracing the frameworks' individual idioms and treating D3 code as first-class. </p><p>This talk will discuss specifics of using D3 within the context of three popular frameworks: Backbone, Angular and Ember. Sam will discuss the limits and strengths of Backbone views, how to create D3-based Angular directives and demonstrate building Ember components with D3.</p><p>Sam will also discuss reusability of D3-based code across the three frameworks.</p>",
+            "bio": "<p><a href='http://www.samselikoff.com'>Sam Selikoff</a> is a self-taught full-stack web developer. Formerly a graduate student of economics and finance, he unexpectedly discovered his passion for programming while doing data work for a consulting firm. He is currently focusing on client-side MVC and data visualization.</p>",
+            "tags": [
+                "d3.js",
+                "MVC Frameworks",
+                "Code Architecture"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/kennedy-program.jpg",
+            "time": "11:30",
+            "name": [
+                "Kennedy Elliot"
+            ],
+            "title": "Coding for the News",
+            "abstract": "<p>Each week the Washington Post publishes five to ten graphics, many of which are interactive and nearly all of them have a web presence. The reach of the graphics department covers breaking news, investigative reporting, local and national news (and everything in between), features, daily news and enterprise stories.</p><p>In this talk, Kennedy will explain the tools, coding practices, skills and process behind some of the <a href='http://www.washingtonpost.com/wp-srv/special/politics/2014-state-of-the-union/language-of-sotu/'>interactive</a> <a href='http://www.washingtonpost.com/blogs/the-fix/wp/2013/12/29/red-america-vs-blue-america/'>work</a> we see on the Washington Post.</p>",
+            "bio": " <p><a href='http://www.oblio.co/'>Kennedy Elliott</a> is a visual journalist at the Washington Post. She codes, designs and edits interactive graphics and visualizations. Previously, she worked for the Associated Press and the Guardian US in New York.</p>",
+            "tags": [
+                "Process",
+                "Case Study"
+            ]
+        },
+        {
+            "image_src": "",
+            "time": "12:00",
+            "name": [
+                ""
+            ],
+            "title": "Lunch",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/jen-program.jpg",
+            "time": "1:15",
+            "name": [
+                "Jen Christiansen"
+            ],
+            "title": "Visualizing Science: Developing Information Graphics for Scientific American Magazine",
+            "abstract": "<p>From its first data-based chart (on the topic of inertia, momentum, and projection) up through to today's web interactives, <a href='http://www.scientificamerican.com/'>Scientific American Magazine</a> has been communicating topics in science and technology to non-specialist audiences with the help of graphics since 1845.</p><p>Jen will walk through the process of developing print, web, and tablet data visualizations for Scientific American, from identifying source datasets, to working with freelance visualizers--with an eye to developing graphics that embrace their skills and style, but still feel at home within the context of a monthly publication (with an established framework and aesthetic identity on paper and online). </p><p>From initial concept through final production, we'll examine projects such as Jan Willem Tulp's <a href='http://www.scientificamerican.com/article/flavor-connection-taste-map-interactive/'>flavor connection network</a> (Sep 2013 issue), and Moritz Stefaner's <a href='http://www.scientificamerican.com/article/where-the-wild-bees-are/'>bee graphic</a> (Dec 2013 issue) from the art director's point of view.</p>",
+            "bio": "<p><a href='http://jenchristiansen.com/'>Jen Christiansen</a> is the art director of information graphics at Scientific American. She began her publishing career with her first stint at Scientific American as an assistant art director back in 1996. She later moved to Washington DC to join the staff at National Geographic Magazine, before freelancing then ultimately rejoining the Scientific American team in 2007. She completed her undergraduate studies in geology and studio art at Smith College, and her graduate studies in natural science illustration at the University of California, Santa Cruz.</p>",
+            "tags": [
+                "Scientific Visualization",
+                "Print & Web",
+                "Case Study",
+                "Design"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/arvind-program.jpg",
+            "time": "1:45",
+            "name": [
+                "Arvind Satyanarayan"
+            ],
+            "title": "Lyra: An Interactive Visualization <br> Design Environment",
+            "abstract": "<p><a href='http://idl.cs.washington.edu/projects/lyra/'>Lyra</a> is an interactive environment that enables custom visualization design without writing any code. Lyra also provides a data pipeline interface for iterative visual specification of data transformations and layout algorithms. Lyra is more expressive than interactive systems like Tableau, allowing designers to create custom visualizations comparable to hand-coded visualizations created using D3 or Processing. These visualizations can then be easily published and reused on the Web. Lyra will be released publicly as a free service and as an open source project at the end of February.</p>",
+            "bio": "<p><a href='arvindsatya.com'>Arvind</a> is a Computer Science PhD candidate at Stanford University, where he works with Jeff Heer to make custom visualization design accessible to a non-technical audience. Arvind is also Chief Architect at Apropose, Inc., a Bay Area start-up he co-founded to build data-driven web design applications.</p>",
+            "tags": [
+                "Tools",
+                "Data Pipeline"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/tom-frederik-program.jpg",
+            "time": "2:15",
+            "name": [
+                "Tom De Smedt",
+                "Frederik De Bleser"
+            ],
+            "title": "Agile Data Mining and Visualization",
+            "abstract": "<p><a href='https://maak.io'>MAAK</a> is the next evolution of <a href='http://nodebox.net'>NodeBox</a>, and provides a completely browser based environment for visual programming. <a href='http://www.clips.ua.ac.be/pattern'>Pattern</a> is a python based web mining and text analysis module for the Python programming language. Their creators, <a href='http://enigmeta.com'>Frederik</a> and <a href='http://www.organisms.be'>Tom</a>, teamed up to integrate these tools and have created a robust data analysis and visualization environment capable of creating interactive graphics that can be published on the web. Their work empowers artists and web developers with no prior expertise in data mining, and researchers seeking to explore their data visually.</p><p>In this talk, Tom and Frederik will demonstrate how <a href='https://maak.io'>MAAK</a> + <a href='http://www.clips.ua.ac.be/pattern'>Pattern</a> work together, show case studies and discuss the future of the platform.</p>",
+            "bio": "<p>Frederik is the author of <a href='http://nodebox.net'>NodeBox</a>. Frederik is currently pursuing his PhD on generative design at EMRG (Experimental Media Research Group, St. Lucas University College of Art & Design) and working on NodeBox MAAK, which is entirely browser-based.</p><p>Tom is the author of <a href='http://www.clips.ua.ac.be/pattern'>Pattern</a>. Tom finished his PhD on computer creativity at CLiPS (Computational Linguistics & Psycholinguistics Research Group, University of Antwerp) and now works at EMRG. His current research interests include sentiment analysis and stylometry.</p>",
+            "tags": [
+                "Tools",
+                "Natural Language Processing"
+            ]
+        },
+        {
+            "image_src": "",
+            "time": "3:00",
+            "name": [
+                ""
+            ],
+            "title": "Break",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/andy-program.jpg",
+            "time": "3:45",
+            "name": [
+                "Andy Kirk"
+            ],
+            "title": "The Design of Nothing: Null, Zero, Blank",
+            "abstract": "<p>In this talk Andy will explore both sides of the design challenge posed by presenting 'nothing'.</p><p>First, the talk will examine the challenge of representing null and zero, two very different states that can offer valuable insights. How does one most effectively encode the absence of a value? How do you make â€˜nothingâ€™ visible? What can we learn from the absence of data compared to presence of data? What are some of the most enduring representations of 'nothing'?</p><p>Second, the talk will investigate the oft-neglected power of emptiness. Blank space is a vital design component but requires sound judgement, restraint and a good deal of courage. Used well, it can unlock the perception of pattern, form and arrangement as explained by Gestalt Psychology.</p><p>We will examine some of the key considerations and see examples of both the good and the bad.</p>",
+            "bio": "<p>Andy Kirk is a UK-based freelance data visualisation specialist. Andy launched <a href=\"http://visualisingdata.com\">visualisingdata.com</a> in February 2010 and this has grown to become a popular source of information about the data visualisation field. He became a freelance professional in 2011 focusing on providing data visualisation consultancy and training workshops. Since then he has delivered over 80 public and private training events across the globe, including clients such as Walmart, Disney, WHO, Intel, OECD and McKinsey.</p>",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/david-program.jpg",
+            "time": "4:15",
+            "name": [
+                "David Mimno"
+            ],
+            "title": "Understanding Machine Learning with D3: Visualization for Models and Algorithms",
+            "abstract": "<p>Statistical machine learning is an increasingly valuable skill in today's data-rich world. Traditionally machine learning papers and tutorials take a highly abstract, mathematical route to explaining models and algorithms. This mathematical focus not only creates barriers to entry, but can also create excessive confidence in models, whose theoretical guarantees may not survive contact with messy real-world data. Visual explanations through pictures and diagrams are often our most effective teaching tools in such situations.</p><p>In this talk David will show models and algorithms that lend themselves to visual explanations. From visualizing the models themselves, to their iterative steps, results and checking methodologies, this talk will demonstrate core machine learning concepts using d3.js.</p>",
+            "bio": "<p><a href='http://mimno.infosci.cornell.edu/'>David Mimno</a> is an assistant professor in the Information Science department at Cornell University. His research is on developing machine learning models and algorithms, with a particular focus on applications in Humanities and Social Science. He received his BA in Classics and Computer Science from Swarthmore College and PhD in Computer Science from the University of Massachusetts, Amherst. He was a CRA Computing Innovation fellow at Princeton University. Before graduate school, he served as Head Programmer at the Perseus Project, a digital library for cultural heritage materials, at Tufts University. Mimno is chief architect for the MALLET machine learning toolkit. </p>",
+            "tags": [
+                "Machine Learning",
+                "d3.js"
+            ]
+        }
+    ],
+    "friday": [
+        {
+            "image_src": "",
+            "time": "8:00",
+            "name": [
+                ""
+            ],
+            "title": "Registration + Breakfast",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "",
+            "time": "9:00",
+            "name": [
+                "It's great to see you again!"
+            ],
+            "title": "Opening Remarks",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/john-program.jpg",
+            "time": "9:15",
+            "name": [
+                "John Resig"
+            ],
+            "title": "Analyzing Art Data for Fun and Profit",
+            "abstract": "<p>Using Node.js John has been building tools and libraries to analyze art and art data. In this talk he will dig into the art and the tools and how they've been helping art historians, researchers, and collectors better understand all the data that they deal with. The challenges of aggregating and correcting data from many international institutions will be explored in-depth.</p>",
+            "bio": "<p><a href='http://ejohn.org/'>John Resig</a> is the Dean of Computer Science at <a href='http://www.khanacademy.org/'>Khan Academy</a> and the creator of the <a href='http://jquery.com/'>jQuery JavaScript library</a>. Heâ€™s also the author of the books <a href='http://jspro.org/'>Pro JavaScript Techniques</a> and <a href='http://jsninja.com/'>Secrets of the JavaScript Ninja</a>.</p><p>John is a Visiting Researcher at <a href='http://www.ritsumei.ac.jp/eng/'>Ritsumeikan University</a> in Kyoto working on the <a href='http://www.ritsumei.ac.jp/eng/html/research/areas/feat-projects/art/05-02-kabuki.html/'>study of Ukiyo-e</a> (Japanese Woodblock printing). He has developed a comprehensive woodblock print database and image search engine located at: <a href='http://ukiyo-e.org/'>Ukiyo-e.org</a>.</p><p>Currently, John is located in Brooklyn, NY.</p>",
+            "tags": [
+                "Data Analysis",
+                "Computer Vision",
+                "Case Study",
+                "Node.js"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/robert-program.jpg",
+            "time": "10:00",
+            "name": [
+                "Robert Simmon"
+            ],
+            "title": "Subtleties of Color",
+            "abstract": "<p>The purpose of data visualization is to illuminate data. To show patterns and relationships that are otherwise hidden in an impenetrable mass of numbers.</p><p>In many datasets, color is one of the most effective means of accurately conveying quantity, and certainly the most widespread. Careful use of color enhances clarity, aids storytelling, and draws a viewer into your dataset. Poor use of color can obscure data, or even mislead.</p><p>In this talk Robert will illustrate the principles behind choosing colors based on human perception through historical examples and contemporary NASA visualizations, and share the many web-based tools he uses to craft perceptually-based color palettes.</p>",
+            "bio": "<p>Robert Simmon is a data visualizer and designer for NASAâ€™s Earth Observatory. With 19 years of experience at NASA, he is an expert at creating clear and compelling imagery from satellite data. He focuses on producing visualizations that are elegant and easily understandable, while accurately presenting the underlying data. His imagery has appeared in newspapers, magazines, web sites, and advertisements, and was featured on the login screen of the original Apple iPhone.</p>",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/bloomberg-program.jpg",
+            "time": "10:45",
+            "name": [
+                "Lisa Strausfeld",
+                "Christopher Cannon"
+            ],
+            "title": "Bloomberg Visual Data - <br>From Explanation to Exploration",
+            "abstract": "<p>Bloomberg has dataâ€”lots of it. But how does one take Bloomberg's unparalleled data, analytics and editorial content and create meaningful visualizations and tools for a global consumer audience? How can interactive data products provide both explanation for the uninitiated and exploration for the expert, bridging the gap for these different use cases?</p><p>The <a href='http://www.bloomberg.com/visual-data/'>Bloomberg Visual Data team</a> creates visualizations that are updatable, scalable and editorially-relevant. This presentation will show how each product starts with the available data, how that data informs the design process, and the technology required to develop it. This talk will examine the process in finding and vetting data, how we sketch with that data, the visual and interaction design decisions that were made and the struggle of telling a compelling and understandable story through data. Examples of what worked and didn't quite work will be shown, as well as the technologies used in our workflow and their impact in the final product.</p>",
+            "bio": "<p><a href='https://twitter.com/strausfeld'>Lisa Strausfeld</a> is a data visualization designer and entrepreneur. She joined Bloomberg in 2012 as Global Head of Data Visualization and leads a team (Bloomberg Visual Data) dedicated to creating a new genre of editorially driven interactive data products for Bloombergâ€™s consumer audience.</p><p>Lisa was a partner at Pentagram from 2002 to 2011 where she built a practice around digital information projects including the design of large-scale media installations, software prototypes and user interfaces, signage and websites. Her clients included One Laptop per Child, GE, the Museum of Arts and Design, Bloomberg LP, MIT and the New York Times. Lisa left Pentagram to launch Major League Politics, a startup that measures and visualizes government activity with the goal of civic entertainment.</p><p>Christopher Cannon is the senior designer on Bloombergâ€™s Visual Data team. He helps create the visual standards, UI design and product ideas for a variety of interactive data visualizations and infographics that utilize Bloomberg data. A graduate of the School of Visual Artâ€™s Interaction Design MFA program, Chris is able to now combine his interests of visual, interaction and product design for his current job. His work has been recognized by The Webby Awards, How, Print, Communication Arts, Type Directors Club and has been featured in Wired, Fast Company and Business Insider.</p><p>Chris lives in Clinton Hill, Brooklyn with his wife and son. He loves maps, Pantone Orange 021 and loud ugly music.</p>",
+            "tags": [
+                "Case Study",
+                "Design Process",
+                "Storytelling"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/mauricio-program.jpg",
+            "time": "11:30",
+            "name": [
+                "Mauricio Giraldo"
+            ],
+            "title": "NYPL Labs Building Inspector: <br>Extracting Data from Historic Maps",
+            "abstract": "<p><a href='http://www.nypl.org/'>The New York Public Library</a> map collection contains hundreds of atlases and maps spanning several centuries. Among them are US insurance atlases from the 19th and early 20th centuries. These atlases offer a wealth of geographic information about buildings in New York City such as addresses, building materials, height and use. However, this data is currently 'trapped' in these atlases, unavailable for public research outside of the NYPL map room.</p><p><a href='http://buildinginspector.nypl.org/'>The Building Inspector</a> is the latest tool by NYPL Labs to extract data from these atlases through a combination of computational (vectorization, computer vision, alpha shapes) and human (crowdsourcing, game design concepts) processes.</p><p>This session will describe the workflow & computational methods behind the Building Inspector and provide additional information on uses of this data as well as the implications of open access to historical data.</p>",
+            "bio": "<p><a href='http://mauriciogiraldo.com/'>Mauricio</a> enjoys playing with code, objects and all things interactive. He is currently an interaction designer at NYPL Labs, The New York Public Libraryâ€™s digital innovation unit.</p>",
+            "tags": [
+                "Mapping",
+                "Workflow",
+                "Computer Vision"
+            ]
+        },
+        {
+            "image_src": "",
+            "time": "12:00",
+            "name": [
+                ""
+            ],
+            "title": "Lunch",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/jake-program.jpg",
+            "time": "1:15",
+            "name": [
+                "Jake Vanderplas"
+            ],
+            "title": "Python in the Browser Age: Data Exploration in the IPython Notebook",
+            "abstract": "<p>The Python language and associated scientific libraries provide a powerful open-source environment for interactive data visualization and manipulation. One important component of these tools is the <a href='http://ipython.org/notebook'>IPython Notebook</a>, platform in which narrative text, data visualizations, mathematical annotations, code in a variety of languages, and more can be combined into one seamless and sharable document. The notebook is fundamentally a browser-based application, in which client-side javascript interacts with the Python kernel to execute snippets of code and display the results. This design choice has opened the way for a host of extensions which take advantage of the browser front-end to enable powerful interactive visualizations.</p><p>In this talk Jake will demonstrate some of the recent developments in notebook-based interactive visualization: these include the kernel-aware javascript widgets of the recent IPython 2.0 release; the <a href='http://nbviewer.ipython.org/github/jakevdp/JSAnimation/blob/master/animation_example.ipynb'>JSAnimation</a> library, which builds clean javascript-powered animations from native matplotlib code; and the new <a href='http://mpld3.github.io/'>mpld3</a> package, which translates matplotlib plots into interactive D3js-based visualizations.</p>",
+            "bio": "<p><a href='http://vanderplas.com'>Jake Vanderplas</a> is the Director of Research in the Physical Sciences at the University of Washingtonâ€™s eScience Institute, where his research is primarily in the area of data-driven astronomy and astrophysics. In addition, he is a maintainer and/or frequent contributor to many open source Python projects, including scikit-learn, scipy, mpld3 and others. He occasionally blogs about Python, machine learning, data visualization, open science, and related topics at <a href='http://jakevdp.github.io'>Pythonic Perambulations</a>.</p>",
+            "tags": [
+                "Python",
+                "Tools",
+                "Animation",
+                "d3.js",
+                "Matplotlib"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/ramnath-program.jpg",
+            "time": "1:50",
+            "name": [
+                "Ramnath Vaidyanathan"
+            ],
+            "title": "Interactive Visualizations with R",
+            "abstract": "<p>In this talk, Ramnath will discuss a generic approach to create, customize and share interactive visualizations straight from R, using a simple and consistent plotting interface, leveraging several javascript visualization libraries and MVC frameworks.</p><p>Ramnath will show how to create and share interactive visualizations from R using <a href='http://rcharts.io'>rCharts</a>, customize them further by injecting interactivity using <a href='http://opencpu.org'>OpenCPU</a> and MVC frameworks like AngularJS and <a href='http://www.rstudio.com/shiny/'>Shiny</a>, and finally how this approach might be generalized and extended to other languages like Python and Julia.</p>",
+            "bio": "<p><a href='http://ramnathv.github.io'>Ramnath Vaidyanathan</a> is an Assistant Professor of Operations Management in the Desautels Faculty of Management at McGill University. His research focuses on the application of predictive analytics and optimization methodologies to improve operational decisions in retailing, and has been published in top journals like _Management Science_ and _Harvard Business Review_. He got his PhD in Operations Management from the <a href='http://www.wharton.upenn.edu'>Wharton School</a>, and worked at McKinsey and Company prior to that.</p><p>He is addicted to R and has developed two packages, <a href='http://rcharts.io'>rCharts</a> and <a href='http://slidify.github.io'>Slidify</a>, to simplify the process of creating interactive visualizations and web-friendly documents, straight from R. He is writing a book on Interactive Documents with R.</p>",
+            "tags": [
+                "R",
+                "Tools",
+                "MVC Frameworks"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/marian-program.jpg",
+            "time": "2:25",
+            "name": [
+                "Marian D&ouml;rk"
+            ],
+            "title": "From Bird's-eye Views to Street-Level Data Exploration: Taking Text For A Stroll",
+            "abstract": "<p>Visualization promises to enable data analysis at a high-level. Typically relying on aggregation, machine learning, and statistics, the resulting representations offer abstract shapes that take the place of rich resources and relationships. While overviews are consensually considered to be useful, they also tend to distance us from the data they promise to help us understand.</p><p>In this talk, Marian will make the case against the primacy of overviews and advocate for a navigational approach to visualizing text corpora and faceted collections. He will cover practical aspects of creating visualizations for navigation as well as conceptual aspects about representation. Marian will synthesize the experiences from several design studies that involved close collaborations with book editors, a corpus linguist, other researchers as well as observations from week to year-long deployments.</p>",
+            "bio": "<p><a href='http://mariandoerk.de'>Marian D&ouml;rk</a> is a research professor for information visualization at the Potsdam University of Applied Sciences. Motivated by the design opportunities and research challenges arising from growing information spaces, Marian is particularly interested in the potential of visual interfaces to support exploratory information practices.</p>",
+            "tags": [
+                "Exploratory Interfaces",
+                "Text Visualization"
+            ]
+        },
+        {
+            "image_src": "",
+            "time": "3:00",
+            "name": [
+                ""
+            ],
+            "title": "Break",
+            "abstract": "",
+            "bio": ""
+        },
+        {
+            "image_src": "img/speakers/program/lena-program.jpg",
+            "time": "3:45",
+            "name": [
+                "Lena Groeger"
+            ],
+            "title": "Think Small: the Power of Wee Things",
+            "abstract": "<p>Wee things: they might be small, but they have a lot to offer the world of data visualization. Showing wee things in combination can be an effective way to make comparisons, explain a step-by-step process or provide visual cues for action. From small multiples to sparklines, mini maps to tiny text, come find out why wee things work so well, how they've been used in the past, and how you too can use them in your work.</p>",
+            "bio": "<p><a href='http://lenagroeger.com/'>Lena Groeger</a> is a news applications developer at <a href='http://www.propublica.org/'>ProPublica</a>, where she makes interactive graphics and data visualizations. She also teaches a design course at the CUNY Graduate School of Journalism. Before joining ProPublica in 2011, Lena wrote for Scientific American and Wired on a variety of topics in science and health. She is particularly excited about the intersection of cognitive science and design, as well as creating graphics and apps in the public interest.</p>",
+            "tags": [
+                "Design"
+            ]
+        },
+        {
+            "image_src": "img/speakers/program/jason-program.jpg",
+            "time": "4:15",
+            "name": [
+                "Jason Sundram"
+            ],
+            "title": "A full stack approach to data visualization: Terabytes (and beyond) at Facebook",
+            "abstract": "<p>To a lot of people, Facebook is a website for interacting with friends and family. It's also a giant treasure trove of rich, <a href='https://www.facebook.com/data/notes'>fascinating data</a>. Facebook has made accessing large data sets easier in part by releasing open source technologies like Presto and Tornado.</p><p>In this talk Jason will explain how he turns terabytes of data into compelling, interactive, data-driven applications whose purposes run the gamut from internal insights to debugging, to beautiful visualizations. He will show examples of each kind of visualization, and talk about the architecture behind each and how it can be applied in other contexts. Jason will cover several open source technologies like <a href='http://square.github.io/crossfilter/'>crossfilter.js</a>, <a href='http://nickqizhu.github.io/dc.js/'>dc.js</a>, <a href='http://d3js.org'>d3.js</a> and <a href='http://zeromq.org/'>0mq</a>.</p>",
+            "bio": "<p><a href='http://runningwithdata.com/'>Jason</a> is a Quantitative Engineer at Facebook, where he creates visualization applications to yield insights from petabytes of data. Before that, he was a Senior Data Scientist at PayPal, where he analyzed and&nbsp;<a href='http://strataconf.com/strata2012/public/schedule/detail/22544' target='_blank'>visualized geo data</a>. He is an avid violinist and chamber musician and cofounder of&nbsp;<a href='http://fb.me/haydnenthusiasts' target='_blank'>The Haydn Enthusiasts</a>, a Bay Area collective that is performing&nbsp;<a href='http://en.wikipedia.org/wiki/List_of_string_quartets_by_Joseph_Haydn' target='_blank'>the complete String Quartets of Joseph Haydn</a>&nbsp;in monthly installments over a 3-year period. His current extracurricular interests include exploring integrations of his passion for classical music with data visualization.</p>",
+            "tags": [
+                "Big Data"
+            ]
+        }
+    ]
+}

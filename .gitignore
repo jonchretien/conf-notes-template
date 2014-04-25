@@ -1,0 +1,17 @@
+# OS generated files #
+######################
+
+.DS_Store
+Icon
+Thumbs.db
+*.ico
+
+# Folders #
+######################
+
+node_modules/
+
+# Misc. #
+######################
+
+notes.md
