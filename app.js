@@ -8,7 +8,7 @@ var fs = require('fs'),
 var file = fs.readFileSync('data/speakers.json', 'utf8'),
     regex = /(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?/,
     json = JSON.parse(file),
-    result = [],
+    results = [],
     template = 'templates/tmpl.mustache',
     markdown, page;
 
@@ -18,7 +18,7 @@ Object.keys(json).forEach(function(day) {
     // skip arrays with empty strings or with greeting text
     if (!val.name[0] || val.name[0].indexOf('great') !== -1) { return; }
 
-    result.push({
+    results.push({
       speaker: val.name.join(' & '), // for multiple speakers
       talk: val.title,
       url: (val.bio.search(regex) !== -1) ? val.bio.match(regex).shift() : null,
@@ -31,7 +31,7 @@ Object.keys(json).forEach(function(day) {
 page = fs.readFileSync(template, 'utf8');
 
 // populate template with data
-markdown = mustache.to_html(page, { talks: result });
+markdown = mustache.to_html(page, { talks: results });
 
 // write to new file
 fs.writeFileSync('notes.md', markdown);
