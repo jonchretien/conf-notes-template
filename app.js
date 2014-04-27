@@ -19,7 +19,7 @@ Object.keys(json).forEach(function(day) {
     if (!val.name[0] || val.name[0].indexOf('great') !== -1) { return; }
 
     result.push({
-      speaker: val.name.join(',').replace(/,/, ' & '), // handles multiple speakers
+      speaker: val.name.join(' & '), // for multiple speakers
       talk: val.title,
       url: (val.bio.search(regex) !== -1) ? val.bio.match(regex).shift() : null,
       day: day
