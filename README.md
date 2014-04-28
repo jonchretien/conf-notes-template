@@ -1,3 +1,8 @@
-# OpenVis Conf Notes Template
+# Conference Notes Template
 
-A quick node script to convert the program and speaker data for the [2014 OpenVis Conference](http://openvisconf.com/) to Markdown files for my conference notes.
+A quick node script to convert program and speaker data to Markdown files for my conference notes. Current lineup:
+
+- [BrooklynJS](http://brooklynjs.com/) 
+- [EmpireJS](http://2014.empirejs.org/) 
+- [ManhattanJS](http://manhattanjs.com/) 
+- [OpenVis Conf](http://openvisconf.com/) 
