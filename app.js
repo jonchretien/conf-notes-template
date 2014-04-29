@@ -3,8 +3,7 @@
 /*
  * Module dependencies
  */
-var FetchSpeakers = require('./lib/fetchspeakers'),
-    FetchBrooklynJS = require('./lib/fetchbrooklyn'),
+var FetchBrooklynJS = require('./lib/fetchbrooklyn'),
     FetchEmpireJS = require('./lib/fetchempire'),
     FetchManhattanJS = require('./lib/fetchmanhattan'),
     FetchOpenVis = require('./lib/fetchopenvis');
