@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-/*
+/**
  * Module dependencies
  */
 var FetchBrooklynJS = require('./lib/fetchbrooklyn'),
