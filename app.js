@@ -39,23 +39,6 @@ var ArgumentParser = {
   },
 
   /**
-   * Checks for bad or missing arguments.
-   *
-   * @param {String} name - Conference name
-   */
-  checkArguments: function(name) {
-    if (!(name in this.conferences)) {
-      console.log('That is not a valid argument');
-      return;
-    }
-
-    if (!name) {
-      console.log('You must pass an argument to run the app.');
-      return;
-    }
-  },
-
-  /**
    * Creates class instances and calls
    * methods to parse conference data.
    *
@@ -72,7 +55,25 @@ var ArgumentParser = {
     }
 
     fetcher.getData();
+  },
+
+  /**
+   * Checks for bad or missing arguments.
+   *
+   * @param {String} name - Conference name
+   */
+  checkArguments: function(name) {
+    if (!(name in this.conferences)) {
+      console.log('That is not a valid argument');
+      return;
+    }
+
+    if (!name) {
+      console.log('You must pass an argument to run the app.');
+      return;
+    }
   }
+
 };
 
 ArgumentParser.init();
