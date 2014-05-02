@@ -6,8 +6,13 @@
 var FetchBrooklynJS = require('./lib/fetchbrooklyn'),
     FetchEmpireJS = require('./lib/fetchempire'),
     FetchManhattanJS = require('./lib/fetchmanhattan'),
-    FetchOpenVis = require('./lib/fetchopenvis');
+    FetchOpenVis = require('./lib/fetchopenvis'),
+    Logger = require('./lib/logger');
 
+/**
+ * Create instance of Logger class.
+ */
+var logger = new Logger();
 
 /**
  * @overvew Parses arguments passed into app.js.
@@ -64,12 +69,12 @@ var ArgumentParser = {
    */
   checkArguments: function(name) {
     if (!(name in this.conferences)) {
-      console.log('That is not a valid argument');
+      logger.log('error', 'That is not a valid argument');
       return;
     }
 
     if (!name) {
-      console.log('You must pass an argument to run the app.');
+      logger.log('warn', 'You must pass an argument to run the app.');
       return;
     }
   }
