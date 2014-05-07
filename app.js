@@ -15,7 +15,7 @@ var FetchBrooklynJS = require('./lib/fetchbrooklyn'),
 var logger = new Logger();
 
 /**
- * @overvew Parses arguments passed into app.js.
+ * Parses arguments passed into app.js.
  */
 var ArgumentParser = {
 
