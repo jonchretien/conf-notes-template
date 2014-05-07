@@ -3,7 +3,8 @@
 /**
  * Module dependencies
  */
-var FetchBrooklynJS = require('./lib/fetchbrooklyn'),
+var FetchAnEventApart = require('./lib/fetchaneventapart'),
+    FetchBrooklynJS = require('./lib/fetchbrooklyn'),
     FetchEmpireJS = require('./lib/fetchempire'),
     FetchManhattanJS = require('./lib/fetchmanhattan'),
     FetchOpenVis = require('./lib/fetchopenvis'),
@@ -24,6 +25,7 @@ var ArgumentParser = {
    * @type {Object}
    */
   conferences: {
+    'aea': FetchAnEventApart,
     'bjs': FetchBrooklynJS,
     'ejs': FetchEmpireJS,
     'mjs': FetchManhattanJS,
