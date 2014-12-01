@@ -2,7 +2,16 @@
 
 A quick node script to convert program and speaker data to Markdown files for my conference notes. Current lineup:
 
-- [BrooklynJS](http://brooklynjs.com/) 
-- [EmpireJS](http://2014.empirejs.org/) 
-- [ManhattanJS](http://manhattanjs.com/) 
-- [OpenVis Conf](http://openvisconf.com/) 
+- [An Event Apart](http://aneventapart.com/) - aka 'aea'
+- [BrooklynJS](http://brooklynjs.com/) - aka 'bjs'
+- [EmpireJS](http://2014.empirejs.org/) - aka 'ejs'
+- [ManhattanJS](http://manhattanjs.com/) - aka 'mjs'
+- [OpenVis Conf](http://openvisconf.com/) - aka 'vis'
+
+## Example
+
+Pass the conference alias as an argument when running `app.js`:
+
+```bash
+node app.js aea
+```
