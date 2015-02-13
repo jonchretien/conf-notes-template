@@ -3,12 +3,12 @@
 /**
  * Module dependencies
  */
-var FetchAnEventApart = require('./lib/fetchaneventapart'),
-    FetchBrooklynJS = require('./lib/fetchbrooklyn'),
-    FetchEmpireJS = require('./lib/fetchempire'),
-    FetchManhattanJS = require('./lib/fetchmanhattan'),
-    FetchOpenVis = require('./lib/fetchopenvis'),
-    Logger = require('./lib/logger');
+var FetchAnEventApart = require('./lib/fetchaneventapart');
+var FetchBrooklynJS = require('./lib/fetchbrooklyn');
+var FetchEmpireJS = require('./lib/fetchempire');
+var FetchManhattanJS = require('./lib/fetchmanhattan');
+var FetchOpenVis = require('./lib/fetchopenvis');
+var Logger = require('./lib/logger');
 
 /**
  * Create instance of Logger class.
@@ -18,7 +18,7 @@ var logger = new Logger();
 /**
  * Parses arguments passed into app.js.
  */
-var ArgumentParser = {
+var Setup = {
 
   /**
    * Store conference nicknames.
@@ -53,14 +53,6 @@ var ArgumentParser = {
    */
   fetchConferenceInfo: function(name) {
     var fetcher = new this.conferences[name]();
-
-    // openvis is a special case since we're not doing a http request
-    if (fetcher.url.indexOf('openvisconf') !== -1) {
-      fetcher.parseSchedule();
-      fetcher.renderOutput();
-      return;
-    }
-
     fetcher.getData();
   },
 
@@ -83,4 +75,4 @@ var ArgumentParser = {
 
 };
 
-ArgumentParser.init();
+Setup.init();
