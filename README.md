@@ -10,8 +10,8 @@ A quick node script to convert program and speaker data to Markdown files for my
 
 ## Example
 
-Pass the conference alias as an argument when running `app.js`:
+Pass the conference alias as an argument when running `index.js`:
 
 ```bash
-node app.js aea
+node index.js aea
 ```

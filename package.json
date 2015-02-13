@@ -1,8 +1,8 @@
 {
-  "name": "openvis-conf-notes-template",
-  "version": "1.4.0",
-  "description": "",
-  "main": "app.js",
+  "name": "conference-notes-template",
+  "version": "1.5.0",
+  "description": "Several scripts that convert program and speaker data to Markdown files for my conference notes.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
