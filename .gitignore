@@ -10,9 +10,4 @@ Thumbs.db
 ######################
 
 node_modules/
-
-# Misc. #
-######################
-
-notes.md
-notes.html
+notes/
