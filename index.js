@@ -53,7 +53,7 @@ var Setup = {
    */
   fetchConferenceInfo: function(name) {
     var fetcher = new this.conferences[name]();
-    fetcher.getData();
+    fetcher.getData(name);
   },
 
   /**
