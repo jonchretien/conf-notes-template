@@ -3,76 +3,51 @@
 /**
  * Module dependencies
  */
-var FetchAnEventApart = require('./lib/fetchaneventapart');
-var FetchBrooklynJS = require('./lib/fetchbrooklyn');
-var FetchEmpireJS = require('./lib/fetchempire');
-var FetchManhattanJS = require('./lib/fetchmanhattan');
-var FetchOpenVis = require('./lib/fetchopenvis');
+var Config = require('./lib/config');
 var Logger = require('./lib/logger');
 
 /**
- * Create instance of Logger class.
- */
-var logger = new Logger();
-
-/**
- * Parses arguments passed into app.js.
+ * Parses arguments passed into index.js.
  */
 var Setup = {
-
-  /**
-   * Store conference nicknames.
-   * @type {Object}
-   */
-  conferences: {
-    'aea': FetchAnEventApart,
-    'bjs': FetchBrooklynJS,
-    'ejs': FetchEmpireJS,
-    'mjs': FetchManhattanJS,
-    'vis': FetchOpenVis
-  },
-
   /**
    * Initializes logic.
    */
   init: function() {
-    var name = process.argv.slice(2)[0];
+    this.name = process.argv.slice(2)[0];
 
     try {
-      this.fetchConferenceInfo(name);
+      this.fetchConferenceInfo();
     } catch (e) {
-      this.checkArguments(name);
+      this.checkArguments();
     }
   },
 
   /**
    * Creates class instances and calls
-   * methods to parse conference data.
-   *
-   * @param {String} name - Conference name
+   * method to parse conference data.
    */
-  fetchConferenceInfo: function(name) {
-    var fetcher = new this.conferences[name]();
-    fetcher.getData(name);
+  fetchConferenceInfo: function() {
+    var fetcher = new Config[this.name].fetch(this.name, Config[this.name].url);
+    fetcher.getData(this.name);
   },
 
   /**
    * Checks for bad or missing arguments.
-   *
-   * @param {String} name - Conference name
    */
-  checkArguments: function(name) {
-    if (!(name in this.conferences)) {
-      logger.log('error', 'That is not a valid argument');
+  checkArguments: function() {
+    var logger = new Logger();
+
+    if (!(this.name in Config)) {
+      logger.log('error', 'That is not a valid conference name.');
       return;
     }
 
-    if (!name) {
+    if (!this.name) {
       logger.log('warn', 'You must pass an argument to run the app.');
       return;
     }
   }
-
 };
 
 Setup.init();
