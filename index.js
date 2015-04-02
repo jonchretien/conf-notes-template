@@ -3,11 +3,7 @@
 /**
  * Module dependencies
  */
-var FetchAnEventApart = require('./lib/fetchaneventapart');
-var FetchBrooklynJS = require('./lib/fetchbrooklyn');
-var FetchEmpireJS = require('./lib/fetchempire');
-var FetchManhattanJS = require('./lib/fetchmanhattan');
-var FetchOpenVis = require('./lib/fetchopenvis');
+var Config = require('./lib/config');
 var Logger = require('./lib/logger');
 
 /**
@@ -19,19 +15,6 @@ var logger = new Logger();
  * Parses arguments passed into app.js.
  */
 var Setup = {
-
-  /**
-   * Store conference nicknames.
-   * @type {Object}
-   */
-  conferences: {
-    'aea': FetchAnEventApart,
-    'bjs': FetchBrooklynJS,
-    'ejs': FetchEmpireJS,
-    'mjs': FetchManhattanJS,
-    'vis': FetchOpenVis
-  },
-
   /**
    * Initializes logic.
    */
@@ -52,7 +35,7 @@ var Setup = {
    * @param {String} name - Conference name
    */
   fetchConferenceInfo: function(name) {
-    var fetcher = new this.conferences[name]();
+    var fetcher = new Config[name].fetch(name, Config[name].url);
     fetcher.getData(name);
   },
 
@@ -62,8 +45,8 @@ var Setup = {
    * @param {String} name - Conference name
    */
   checkArguments: function(name) {
-    if (!(name in this.conferences)) {
-      logger.log('error', 'That is not a valid argument');
+    if (!(name in Config)) {
+      logger.log('error', 'That is not a valid conference name.');
       return;
     }
 
@@ -72,7 +55,6 @@ var Setup = {
       return;
     }
   }
-
 };
 
 Setup.init();
