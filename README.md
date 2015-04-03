@@ -4,7 +4,7 @@ A quick node script to convert program and speaker data to Markdown files for my
 
 - [An Event Apart](http://aneventapart.com/) - aka 'aea'
 - [BrooklynJS](http://brooklynjs.com/) - aka 'bjs'
-- [EmpireJS](http://2014.empirejs.org/) - aka 'ejs'
+- [EmpireJS](http://empirejs.org/) - aka 'ejs'
 - [ManhattanJS](http://manhattanjs.com/) - aka 'mjs'
 - [OpenVis Conf](http://openvisconf.com/) - aka 'vis'
 
@@ -15,3 +15,5 @@ Pass the conference alias as an argument when running `index.js`:
 ```bash
 node index.js aea
 ```
+
+A `notes` folder will be created with a `notes-aea.md` file.
