@@ -29,7 +29,7 @@ var Setup = {
    */
   fetchConferenceInfo: function() {
     var fetcher = new Config[this.name].fetch(this.name, Config[this.name].url);
-    fetcher.getData(this.name);
+    fetcher.getData();
   },
 
   /**
