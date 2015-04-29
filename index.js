@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 /**
  * Module dependencies
  */
@@ -14,7 +16,7 @@ var Setup = {
    * Initializes logic.
    */
   init: function() {
-    this.name = process.argv.slice(2)[0];
+    this.abbr = process.argv.slice(2)[0];
 
     try {
       this.fetchConferenceInfo();
@@ -28,7 +30,7 @@ var Setup = {
    * method to parse conference data.
    */
   fetchConferenceInfo: function() {
-    var fetcher = new Config[this.name].fetch(this.name, Config[this.name].url);
+    var fetcher = new Config[this.abbr].fetch(this.abbr, Config[this.abbr].url, Config[this.abbr].conference);
     fetcher.getData();
   },
 
@@ -38,12 +40,12 @@ var Setup = {
   checkArguments: function() {
     var logger = new Logger();
 
-    if (!(this.name in Config)) {
+    if (!(this.abbr in Config)) {
       logger.log('error', 'That is not a valid conference name.');
       return;
     }
 
-    if (!this.name) {
+    if (!this.abbr) {
       logger.log('warn', 'You must pass an argument to run the app.');
       return;
     }
