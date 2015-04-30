@@ -1,6 +1,6 @@
 {
   "name": "conference-notes-template",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Several scripts that convert program and speaker data to Markdown files for my conference notes.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "mustache": "~0.8.1",
     "cheerio": "~0.15.0",
     "request": "~2.34.0",
-    "q": "~1.3.0"
+    "q": "~1.3.0",
+    "chalk": "~1.0.0"
   }
 }
