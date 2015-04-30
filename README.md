@@ -8,6 +8,7 @@ A quick node script to convert program and speaker data to Markdown files for my
 - [CascadiaJS: Browser Day](http://2015.cascadiajs.com/browser/) - aka `cf2`
 - [CascadiaJS: Server Day](http://2015.cascadiajs.com/server/) - aka `cf3`
 - [EmpireJS](http://empirejs.org/) - aka `ejs`
+- [JSConf Budapest](http://jsconfbp.com/) - aka `jsconfhu`
 - [JSConf US](http://2015.jsconf.us/speakers.html) - aka `jsconfus`
 - [ManhattanJS](http://manhattanjs.com/) - aka `mjs`
 - [OpenVis Conf](http://openvisconf.com/) - aka `vis`
