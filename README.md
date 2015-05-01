@@ -15,12 +15,19 @@ A quick node script to convert program and speaker data to Markdown files for my
 | [ManhattanJS](http://manhattanjs.com/)                         | `mjs`      |
 | [OpenVis Conf](http://openvisconf.com/)                        | `vis`      |
 
-## Example
+## Instructions
 
-Pass the conference alias as an argument when running `index.js`:
+Clone the GitHub repo and navigate to the newly created folder.
+```bash
+git clone https://github.com/jonchretien/conf-notes-template.git && cd conf-notes-template
+```
 
+Install NPM packages.
+```bash
+npm install
+```
+
+Pass the conference alias as an argument when running `index.js`. In this example, a `notes` folder will be created with a `notes-aea.md` file.
 ```bash
 ./index.js aea
 ```
-
-A `notes` folder will be created with a `notes-aea.md` file.
