@@ -44,11 +44,6 @@ var Setup = {
       logger.log('error', 'That is not a valid conference name.');
       return;
     }
-
-    if (!this.abbr) {
-      logger.log('warn', 'You must pass an argument to run the app.');
-      return;
-    }
   }
 };
 
