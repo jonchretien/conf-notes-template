@@ -14,6 +14,7 @@ Conference                                                  | Year | Key
 [JSConf US](http://2015.jsconf.us/speakers.html)            | 2015 | `jscus`
 [ManhattanJS](http://manhattanjs.com/)                      | 2015 | `mjs`
 [OpenVis Conf](http://openvisconf.com/)                     | 2015 | `vis`
+[Smashing Conference](http://smashingconf.com/speakers)     | 2015 | `smcf`
 
 ## Instructions
 
