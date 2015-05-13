@@ -9,6 +9,7 @@ Conference                                                  | Year | Key
 [CascadiaCSS](http://2015.cascadiajs.com/css/)              | 2015 | `cf1`
 [CascadiaJS (Browser)](http://2015.cascadiajs.com/browser/) | 2015 | `cf2`
 [CascadiaJS (Server)](http://2015.cascadiajs.com/server/)   | 2015 | `cf3`
+[CSSConf](https://2015.cssconf.com)                         | 2015 | `csscf`
 [EmpireJS](http://empirejs.org/)                            | 2015 | `ejs`
 [JSConf Budapest](http://jsconfbp.com/)                     | 2015 | `jschu`
 [JSConf US](http://2015.jsconf.us/speakers.html)            | 2015 | `jscus`
