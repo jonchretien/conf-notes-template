@@ -30,7 +30,12 @@ var Setup = {
    * method to parse conference data.
    */
   fetchConferenceInfo: function() {
-    var fetcher = new Config[this.abbr].fetch(this.abbr, Config[this.abbr].url, Config[this.abbr].conference);
+    var fetcher = new Config[this.abbr].fetch({
+      abbr: this.abbr,
+      url: Config[this.abbr].url,
+      name: Config[this.abbr].conference,
+      speakers: []
+    });
     fetcher.getData();
   },
 
