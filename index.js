@@ -34,7 +34,7 @@ var Setup = {
       abbr: this.abbr,
       url: Config[this.abbr].url,
       name: Config[this.abbr].conference,
-      speakers: []
+      talks: []
     });
     fetcher.getData();
   },
