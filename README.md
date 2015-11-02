@@ -29,7 +29,9 @@ Install NPM packages.
 npm install
 ```
 
-Pass the conference alias as an argument when running `index.js`. In this example, a `notes` folder will be created with a `notes-aea.md` file.
+Pass the conference alias as an argument when running `index.js`. In this example, a `notes` folder will be created with a `notes-aea.md` file. 
 ```bash
 ./index.js aea
 ```
+
+*Note:* the app requires a minimum Node version of `4.0.0`.
