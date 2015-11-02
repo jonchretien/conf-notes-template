@@ -30,13 +30,11 @@ let Setup = {
    * method to parse conference data.
    */
   fetchConferenceInfo() {
-    let fetcher = new CONFIG[this.abbr].fetch({
+    CONFIG[this.abbr].fetch.init({
       abbr: this.abbr,
       url: CONFIG[this.abbr].url,
       name: CONFIG[this.abbr].conference,
-      talks: [],
     });
-    fetcher.getData();
   },
 
   /**
