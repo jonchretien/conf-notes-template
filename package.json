@@ -1,6 +1,6 @@
 {
   "name": "conference-notes-template",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "Several scripts that convert program and speaker data to Markdown files for my conference notes.",
   "main": "index.js",
   "scripts": {
