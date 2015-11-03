@@ -13,7 +13,7 @@ let logger = require('./lib/logger');
  */
 let Setup = {
   /**
-   * Initializes logic.
+   * Initial setup.
    */
   init() {
     this.abbr = process.argv.slice(2)[0];
@@ -26,8 +26,7 @@ let Setup = {
   },
 
   /**
-   * Creates class instances and calls
-   * method to parse conference data.
+   * Passes conference details to object.
    */
   fetchConferenceInfo() {
     CONFIG[this.abbr].fetch.init({
