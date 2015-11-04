@@ -1,6 +1,6 @@
 {
   "name": "conf-notes-template",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "An app that converts program and speaker data to Markdown files for my conference notes.",
   "main": "index.js",
   "scripts": {
