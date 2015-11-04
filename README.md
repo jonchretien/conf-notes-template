@@ -1,6 +1,6 @@
 # Conference Notes Template
 
-A quick node script to convert program and speaker data to Markdown files for my conference notes. Current lineup:
+An app that converts program and speaker data to Markdown files for my conference notes. Current lineup:
 
 Conference                                                  | Year | Key
 :---------------------------------------------------------- | :--- | :------

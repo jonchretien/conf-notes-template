@@ -1,13 +1,17 @@
 {
-  "name": "conference-notes-template",
+  "name": "conf-notes-template",
   "version": "1.12.0",
-  "description": "Several scripts that convert program and speaker data to Markdown files for my conference notes.",
+  "description": "An app that converts program and speaker data to Markdown files for my conference notes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jon Chretien",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonchretien/conf-notes-template"
+  },
   "devDependencies": {
     "mustache": "~0.8.1",
     "cheerio": "~0.15.0",
@@ -15,5 +19,8 @@
     "chalk": "~1.0.0",
     "bluebird": "~2.9.25",
     "request-promise": "~0.4.2"
+  },
+  "engines" : {
+    "node" : ">=4.0.0"
   }
 }
