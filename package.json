@@ -4,7 +4,8 @@
   "description": "An app that converts program and speaker data to Markdown files for my conference notes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js lib/**/*.js"
   },
   "author": "Jon Chretien",
   "license": "ISC",
@@ -13,14 +14,17 @@
     "url": "https://github.com/jonchretien/conf-notes-template"
   },
   "devDependencies": {
-    "mustache": "~0.8.1",
-    "cheerio": "~0.15.0",
-    "request": "~2.34.0",
-    "chalk": "~1.0.0",
     "bluebird": "~2.9.25",
+    "chalk": "~1.0.0",
+    "cheerio": "~0.15.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.13.1",
+    "mustache": "~0.8.1",
+    "request": "~2.34.0",
     "request-promise": "~0.4.2"
   },
-  "engines" : {
-    "node" : ">=4.0.0"
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
