@@ -4,6 +4,7 @@ module.exports = {
         "react"
     ],
     "rules": {
-         "strict": 0
+         "strict": 0,
+         "no-console": 0
      }
 };
