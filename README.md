@@ -35,3 +35,9 @@ Pass the conference alias as an argument when running `index.js`. In this exampl
 ```
 
 *Note:* the app requires a minimum Node version of `4.0.0`.
+
+## Linting
+
+```bash
+npm run lint
+```
