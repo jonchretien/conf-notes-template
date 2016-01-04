@@ -5,13 +5,13 @@
 /**
  * Module dependencies
  */
-const CONFIG = require('./lib/config');
-let logger = require('./lib/logger');
+const config = require('./lib/config');
+const logger = require('./lib/logger');
 
 /**
  * Parses arguments passed into index.js.
  */
-let Setup = {
+const Setup = {
   /**
    * Initial setup.
    */
@@ -29,10 +29,10 @@ let Setup = {
    * Passes conference details to object.
    */
   fetchConferenceInfo() {
-    CONFIG[this.abbr].fetch.init({
+    config[this.abbr].fetch.init({
       abbr: this.abbr,
-      url: CONFIG[this.abbr].url,
-      name: CONFIG[this.abbr].conference,
+      url: config[this.abbr].url,
+      name: config[this.abbr].conference,
     });
   },
 
@@ -40,7 +40,7 @@ let Setup = {
    * Checks for bad or missing arguments.
    */
   checkArguments() {
-    if (!(this.abbr in CONFIG)) {
+    if (!(this.abbr in config)) {
       logger.log('error', 'That is not a valid conference name.');
       return;
     }
