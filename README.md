@@ -5,16 +5,16 @@ An app that converts program and speaker data to Markdown files for my conferenc
 Conference                                                  | Year | Key
 :---------------------------------------------------------- | :--- | :------
 [An Event Apart](http://aneventapart.com/)                  | 2014 | `aea`
-[BrooklynJS](http://brooklynjs.com/)                        | 2015 | `bjs`
+[BrooklynJS](http://brooklynjs.com/)                        | 2016 | `bjs`
 [CascadiaCSS](http://2015.cascadiajs.com/css/)              | 2015 | `cf1`
 [CascadiaJS (Browser)](http://2015.cascadiajs.com/browser/) | 2015 | `cf2`
 [CascadiaJS (Server)](http://2015.cascadiajs.com/server/)   | 2015 | `cf3`
 [CSSConf](https://2015.cssconf.com)                         | 2015 | `csscf`
-[EmpireJS](http://empirejs.org/)                            | 2015 | `ejs`
+[EmpireJS](http://empirejs.org/)                            | 2016 | `ejs`
 [JSConf Budapest](http://jsconfbp.com/)                     | 2015 | `jschu`
 [JSConf US](http://2015.jsconf.us/speakers.html)            | 2015 | `jscus`
-[ManhattanJS](http://manhattanjs.com/)                      | 2015 | `mjs`
-[OpenVis Conf](https://openvisconf.com/2015/)                     | 2015 | `vis`
+[ManhattanJS](http://manhattanjs.com/)                      | 2016 | `mjs`
+[OpenVis Conf](https://openvisconf.com)                     | 2016 | `vis`
 [Smashing Conference](http://smashingconf.com/speakers)     | 2015 | `smcf`
 
 ## Instructions
